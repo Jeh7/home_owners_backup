@@ -1,0 +1,73 @@
+﻿/* General Styles */
+html {
+    font-size: 14px;
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Hero Section */
+.hero-section {
+    background: url('/images/bg.png') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-logo {
+    width: 400px;
+    margin-top: 70px;
+}
+
+.display-4 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #F5F5F5;
+}
+
+.hero-text {
+    font-size: 1.5rem;
+    margin: 35px 0 30px;
+    text-align: center;
+    white-space: pre-line;
+}
+
+.highlight {
+    color: #F5F5F5;
+    font-weight: bold;
+}
+
+.btn-yellow {
+    background-color: #F99F25;
+    color: #F5F5F5;
+    font-weight: bold;
+    padding: 12px 24px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+}
+
+.btn-yellow:hover {
+        background-color: #E6C200;
+        color: white;
+}
+
